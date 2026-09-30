@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Código OSINT</title>
+
+    <link rel="stylesheet" href="style/styyle.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Código OSINT</h1>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    Principal
+                    <img class="Icono" src="Imagen/principal (1).png" alt="Principal">
+                </a>
+            </li>
+
+            <li>
+                <a href="informacion.html">
+                    Información
+                    <img class="Icono" src="Imagen/informacion.png" alt="Información">
+                </a>
+            </li>
+
+            <li>
+                <a href="codigo.html">
+                    Código
+                    <img class="Icono" src="Imagen/codigo.png" alt="Código">
+                </a>
+            </li>
+
+            <li>
+                <a href="tuto.html">
+                    Tutorial
+                    <img class="Icono" src="Imagen/tuto.png" alt="Tutorial">
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section id="center">
+
+        <div class="centrar">
+
+            <h2>Herramientas OSINT</h2>
+
+
+            <!-- SHERLOCK -->
+
+            <h3>1. Sherlock</h3>
+
+            <p>
+                Sherlock es una herramienta OSINT que permite buscar
+                un nombre de usuario en diferentes plataformas y
+                servicios de Internet.
+            </p>
+
+
+            <h3>Comando general</h3>
+
+            <div class="tarjeta">
+
+                <pre>
+sherlock [usuario]
+                </pre>
+
+            </div>
+
+        </div>
+
+
+        <!-- ATRIBUTO 1 -->
+
+        <div class="centrar">
+
+            <h3>--print-found</h3>
+
+            <p>
+                Muestra los sitios en los que Sherlock encontró
+                el nombre de usuario indicado.
+            </p>
+
+            <div class="tarjeta">
+
+                <pre>
+sherlock SADYSA --print-found
+                </pre>
+
+            </div>
+
+        </div>
+
+
+        <!-- ATRIBUTO 2 -->
+
+        <div class="centrar">
+
+            <h3>--csv</h3>
+
+            <p>
+                Guarda los resultados obtenidos durante la búsqueda
+                en un archivo con formato CSV.
+            </p>
+
+            <div class="tarjeta">
+
+                <pre>
+sherlock SADYSA --csv
+                </pre>
+
+            </div>
+
+        </div>
+
+
+        <!-- ATRIBUTO 3 -->
+
+        <div class="centrar">
+
+            <h3>--json</h3>
+
+            <p>
+                Permite utilizar un archivo en formato JSON como
+                fuente de datos para Sherlock.
+            </p>
+
+            <div class="tarjeta">
+
+                <pre>
+sherlock SADYSA --json archivo.json
+                </pre>
+
+            </div>
+
+        </div>
+
+
+        <!-- ATRIBUTO 4 -->
+
+        <div class="centrar">
+
+            <h3>--site</h3>
+
+            <p>
+                Permite limitar la búsqueda a uno o varios sitios
+                específicos en lugar de realizarla en todas las
+                plataformas disponibles.
+            </p>
+
+            <div class="tarjeta">
+
+                <pre>
+sherlock SADYSA --site GitHub
+                </pre>
+
+            </div>
+
+        </div>
+
+
+        <!-- ATRIBUTO 5 -->
+
+        <div class="centrar">
+
+            <h3>--browse</h3>
+
+            <p>
+                Abre en el navegador los resultados encontrados
+                durante la búsqueda.
+            </p>
+
+            <div class="tarjeta">
+
+                <pre>
+sherlock SADYSA --browse
+                </pre>
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <br><br><br>
+
+</main>
+
+
+<footer>
+
+    <h3>OSINT // INTELIGENCIA DIGITAL</h3>
+
+    <p>
+        Buscar. Recopilar. Verificar. Analizar.
+    </p>
+
+    <p>
+        © 2026 | Hablemos de OSINT
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
